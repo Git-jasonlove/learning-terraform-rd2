@@ -1,5 +1,5 @@
 module "prod" {
-  source = "../modules/blog"
+  source = "../modules"
   environment = {
     name = "prod"
     network_prefix = "10.2"
